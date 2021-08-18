@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-title>Deletar</mat-card-title>
+    
+        
+            
+                <input [value]="cliente.id" id="id" disabled>
+            
+                <input [value]="cliente.nome" nome="nome" disabled>
+            
+                <input [value]="cliente.email" email="email" disabled>
+            
+                <input [value]="cliente.cidade" cidade="cidade" disabled>
+           
+        
+   
+
+        <button (click)="deleteCliente()" color="primary" class="button1">
+              deletar
+        </button>
+        <button>
+          <a routerLink = '/cliente'>
+                Cancelar
+            </a>
+        </button>
+    
+</mat-card>

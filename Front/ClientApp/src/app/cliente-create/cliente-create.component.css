@@ -1,0 +1,9 @@
+.button1{
+    background-color: brown;
+    right: 10px;
+
+}
+Form{
+    display: flex;
+    flex-direction: column;
+}

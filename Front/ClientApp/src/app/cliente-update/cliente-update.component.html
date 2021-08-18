@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-title>Alterar Cliente</mat-card-title>
+    
+        
+            <input [value]="cliente.id" id="id" disabled>
+                 
+        
+            <input [(ngModel)]="cliente.nome" nome="nome" >
+
+        
+            <input [(ngModel)]="cliente.email" email="email">
+       
+        
+            <input [(ngModel)]="cliente.cidade" cidade="cidade">
+       
+            
+
+    <button (click)="updateCliente()" color="primary" class="button1">
+        Atualizar
+    </button>
+    <button>
+        <a routerLink = '/cliente'>
+            Voltar
+        </a>
+    </button>
+</mat-card>
